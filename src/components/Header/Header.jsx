@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from "react";
+import useAuth from "../../custom-hooks/useAuth";
 
 import { NavLink, useNavigate } from "react-router-dom";
 import "./header.css";
@@ -32,6 +33,7 @@ const Header = () => {
 
   const menuRef = useRef(null);
   const navigate = useNavigate();
+  const { currentUser } = useAuth();
 
   const stickyHeaderFunc = () => {
     window.addEventListener("scroll", () => {
@@ -100,6 +102,7 @@ const Header = () => {
               <span>
                 <motion.img whileTap={{ scale: 1.2 }} src={userIcon} alt="" />
               </span>
+              <p>{currentUser.displayName}</p>
               <div className="mobile__menu">
                 <span onClick={menuToggle}>
                   <i class="ri-menu-5-line"></i>
