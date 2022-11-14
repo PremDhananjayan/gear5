@@ -1,46 +1,47 @@
-
-
-.footer{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background: var(--primary-color);
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: var(--hero-bg);
 }
 
-.footer__text{
-    line-height: 30px;
-    color: #fff;
+.footer__head {
+  color: var(--card-bg-100);
+}
+.footer__text {
+  line-height: 30px;
+  color: var(--card-bg-100);
 }
 
-.footer__quick-links ul li{
-    background: transparent !important;
+.footer__quick-links ul li {
+  background: transparent !important;
 }
 
-.footer__quick-links ul li a{
-    color:rgb(255,255,255,0.735)
+.footer__quick-links ul li a {
+  color: rgb(255, 255, 255, 0.735);
 }
 
-.quick__links-title{
-    margin-bottom: 20px;
-    color: #fff;
-    font-size: 1.1rem;
+.quick__links-title {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 1.1rem;
 }
 
-.footer__contact li span, 
-.footer__contact li p{
-    color:rgb(255,255,255,0.735)
+.footer__contact li span,
+.footer__contact li p {
+  color: rgb(255, 255, 255, 0.735);
 }
 
-.footer__contact li span{
-    font-style: 1.2rem;
+.footer__contact li span {
+  font-style: 1.2rem;
 }
 
-.footer__contact li p{
-    font-style: 0.9rem;
+.footer__contact li p {
+  font-style: 0.9rem;
 }
 
-.footer__copyright{
-    color:rgb(255,255,255,0.735);
-    font-style: 0.9rem;
-    margin-top: 40px;
-    text-align: center;
+.footer__copyright {
+  color: var(--card-bg-100);
+  font-style: 0.9rem;
+  margin-top: 40px;
+  text-align: center;
 }

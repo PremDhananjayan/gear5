@@ -1,11 +1,18 @@
 .auth__form {
   background: var(--primary-color);
   padding: 40px;
+  padding-bottom: 80px;
   border-radius: 5px;
 }
 
+.auth__form img {
+  width: 30% !important;
+  height: 60% !important;
+  object-fit: contain;
+}
+
 .auth__btn {
-  background: #fff !important;
+  background: #d78d5f !important;
   color: var(--primary-color);
   font-weight: 600;
 }

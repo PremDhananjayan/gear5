@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from "react";
 
-import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import products from '../assets/data/products'
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import products from "../assets/data/products";
 
-import Helmet from '../components/Helmet/Helmet'
-import '../styles/home.css';
+import Helmet from "../components/Helmet/Helmet";
+import "../styles/home.css";
 
-import { Container, Row, Col } from 'reactstrap';
-import bike5 from '../assets/images/bike5.png'
+import { Container, Row, Col } from "reactstrap";
+import bike5 from "../assets/images/hayabusa.png";
 
-import Services from '../services/Services';
-import ProductsList from '../components/UI/ProductsList';
+import Services from "../services/Services";
+import ProductsList from "../components/UI/ProductsList";
 
-import Clock from "../components/UI/Clock"
+import Clock from "../components/UI/Clock";
 
-import counterImg from '../assets/images/counter-timer-img.png';
+import counterImg from "../assets/images/counter4.png";
 
 const Home = () => {
   const [trendingProducts, setTrendingProducts] = useState([]);
@@ -26,128 +26,135 @@ const Home = () => {
 
   const year = new Date().getFullYear();
 
-  useEffect(()=>{
+  useEffect(() => {
     const filteredTrendingProducts = products.filter(
-      item => item.category === "chair"
-      );
+      (item) => item.category === "chair"
+    );
 
     const filteredBestSalesProducts = products.filter(
-      item => item.category === "sofa"
-      );
+      (item) => item.category === "sofa"
+    );
 
     const filteredMobileProducts = products.filter(
-      item => item.category === "mobile"
-      );
+      (item) => item.category === "accessories"
+    );
 
     const filteredWirelessProducts = products.filter(
-      item => item.category === "wireless"
-      );
+      (item) => item.category === "wireless"
+    );
 
     const filteredPopularProducts = products.filter(
-      item => item.category === "watch"
-      );
+      (item) => item.category === "watch"
+    );
 
     setTrendingProducts(filteredTrendingProducts);
     setBestSalesProducts(filteredBestSalesProducts);
     setMobileProducts(filteredMobileProducts);
     setWirelessProducts(filteredWirelessProducts);
     setPopularProducts(filteredPopularProducts);
-     }, []);
+  }, []);
 
-  return  <Helmet title={"Home"}>
-    <section className="hero__section">
-      <Container>
-        <Row>
-          <Col lg='6' md='6'>
-            <div className="hero__content">
-              <p className="hero__subtitle">
-                Available Spares in {year}
-              </p>
-              <h2>Build your dream bike, or customise your current one!</h2>
-              <p>Lorem ipsum dolor</p>
+  return (
+    <Helmet title={"Home"}>
+      <section className="hero__section">
+        <Container>
+          <Row>
+            <Col lg="6" md="6">
+              <div className="hero__content">
+                <p className="hero__subtitle">Gear up, its {year}!</p>
+                <h2>Build your dream bike, or customise your current one!</h2>
+                <p>For every spare, we care.</p>
 
-              <motion.button whileTap={{ scale: 1.2 }}className="buy__btn">
-                <Link to='/shop'>CHOOSE NOW!</Link></motion.button>
-            </div>
-          </Col>
+                <motion.button whileTap={{ scale: 1.2 }} className="buy__btn">
+                  <Link to="/shop">CHOOSE NOW!</Link>
+                </motion.button>
+              </div>
+            </Col>
 
-          <Col lg='6' md='6'>
-            <div className="hero__img">
-              <img src={bike5} alt=" "/>
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    </section>
-
-    <Services />
-    <section className='trending__products'>
-      <Container>
-      <Row>
-          <Col lg='12' className='text-center'>
-            <h2 className="section__title">Current Best-selling Spares</h2>
-          </Col>
-          <ProductsList data={trendingProducts}/>
-        </Row>
-      </Container>
-    </section>
-
-    <section className="best__sales">
-      <Container>
-      <Row>
-          <Col lg='12' className='text-center'>
-            <h2 className="section__title">Spares to look out for all season!</h2>
-          </Col>
-          <ProductsList data={bestSalesProducts}/>
-        </Row>
-      </Container>
-    </section>
-
-    <section className="timer__count">
-      <Container>
-        <Row>
-          <Col lg='6' md='12' className='count__down-col'>
-
-            <div className="clock__top-content">
-              <h4 className='text-white fs-6 mb-2'>Limited Time Pricing</h4>
-              <h3 className='text-white fs-5 mb-3'>On Special Accessories</h3>
-            </div>
-            <Clock />
-
-            <motion.button whileTap={{ scale: 1.2 }} className="buy__btn store__btn">
-              <Link to ='/shop'>Visit catalog now!</Link>
-            </motion.button>
-          </Col>
-          <Col lg='6' md='12' className="text-end counter__img">
-            <img src={counterImg} alt=" "/>
-          </Col>
-        </Row>
-      </Container>
-    </section>
-
-    <section className="new__arrivals">
-      <Container>
-        <Row>
-          <Col lg='12' className='text-center mb-5'>
-            <h2 className="section__title">Newly Arrived Accessories!</h2>
-          </Col>
-          <ProductsList data={mobileProducts}/>
-          <ProductsList data={wirelessProducts}/>
-        </Row>
-      </Container>
+            <Col lg="6" md="6">
+              <div className="hero__img">
+                <img src={bike5} alt=" " />
+              </div>
+            </Col>
+          </Row>
+        </Container>
       </section>
 
-      <section className='popular__category'>
-      <Container>
-        <Row>
-          <Col lg='12' className='text-center mb-5'>
-            <h2 className="section__title">All-time Popular Spares & Accessories!</h2>
-          </Col>
-          <ProductsList data={popularProducts}/>
-        </Row>
-      </Container>
+      <Services />
+      <section className="trending__products">
+        <Container>
+          <Row>
+            <Col lg="12" className="text-center">
+              <h2 className="section__title">Current Best-selling Spares</h2>
+            </Col>
+            <ProductsList data={trendingProducts} />
+          </Row>
+        </Container>
       </section>
-  </Helmet>;
+
+      <section className="best__sales">
+        <Container>
+          <Row>
+            <Col lg="12" className="text-center">
+              <h2 className="section__title">
+                Spares to look out for all season!
+              </h2>
+            </Col>
+            <ProductsList data={bestSalesProducts} />
+          </Row>
+        </Container>
+      </section>
+
+      <section className="timer__count">
+        <Container>
+          <Row>
+            <Col lg="6" md="12" className="count__down-col">
+              <div className="clock__top-content">
+                <h5 className="fs-8 mb-2">Limited Time Pricing</h5>
+                <h3 className="fs-5 mb-3">On Special Accessories</h3>
+              </div>
+              <Clock />
+
+              <motion.button
+                whileTap={{ scale: 1.2 }}
+                className="buy__btn store__btn"
+              >
+                <Link to="/shop">Visit catalog now!</Link>
+              </motion.button>
+            </Col>
+            <Col lg="6" md="12" className="text-end counter__img">
+              <img src={counterImg} alt=" " />
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section className="new__arrivals">
+        <Container>
+          <Row>
+            <Col lg="12" className="text-center mb-5">
+              <h2 className="section__title">Newly Arrived Accessories!</h2>
+            </Col>
+            <ProductsList data={mobileProducts} />
+            <ProductsList data={wirelessProducts} />
+          </Row>
+        </Container>
+      </section>
+
+      <section className="popular__category">
+        <Container>
+          <Row>
+            <Col lg="12" className="text-center mb-5">
+              <h2 className="section__title">
+                All-time Popular Spares & Accessories!
+              </h2>
+            </Col>
+            <ProductsList data={popularProducts} />
+          </Row>
+        </Container>
+      </section>
+    </Helmet>
+  );
 };
 
 export default Home;

@@ -23,7 +23,7 @@ const Shop = () => {
 
     if (filterValue === "mobile") {
       const filteredProducts = products.filter(
-        (item) => item.category === "mobile"
+        (item) => item.category === "accessories"
       );
 
       setProductsData(filteredProducts);

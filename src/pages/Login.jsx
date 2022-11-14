@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import Helmet from "../components/Helmet/Helmet";
 import { Container, Row, Col, Form, FormGroup } from "reactstrap";
 import { Link, useNavigate } from "react-router-dom";
-import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../firebase.config";
 import { toast } from "react-toastify";
 
 import "../styles/login.css";
@@ -13,7 +11,7 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
-  const signIn = async (e) => {
+  /*const signIn = async (e) => {
     e.preventDefault();
     setLoading(true);
 
@@ -34,7 +32,7 @@ const Login = () => {
       setLoading(false);
       toast.error(error.message);
     }
-  };
+  };*/
 
   return (
     <Helmet title="Login">
@@ -48,8 +46,9 @@ const Login = () => {
             ) : (
               <Col lg="6" className="m-auto text-center">
                 <h3 className="fw-bold mb-4">Login</h3>
+                <img src="gear5.png" alt="" />
 
-                <Form className="auth__form" onSubmit={signIn}>
+                <Form className="auth__form">
                   <FormGroup className="form__group">
                     <input
                       type="email"

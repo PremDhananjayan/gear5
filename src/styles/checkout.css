@@ -4,7 +4,7 @@
 
 .auth__btn {
   background: #fff !important;
-  color: var(--primary-color);
+  color: var(--card-bg-100);
   font-weight: 600;
 }
 

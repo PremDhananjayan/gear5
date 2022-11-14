@@ -4,14 +4,6 @@ import { Container, Row, Col, Form, FormGroup } from "reactstrap";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
-import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
-import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
-import { setDoc, doc } from "firebase/firestore";
-
-import { auth } from "../firebase.config";
-import { storage } from "../firebase.config";
-import { db } from "../firebase.config";
-
 import { toast } from "react-toastify";
 import "../styles/login.css";
 
@@ -24,7 +16,7 @@ const Signup = () => {
 
   const navigate = useNavigate();
 
-  const signup = async (e) => {
+  /* const signup = async (e) => {
     e.preventDefault();
     setLoading(true);
 
@@ -69,7 +61,7 @@ const Signup = () => {
       setLoading(false);
       toast.error("Something went wrong");
     }
-  };
+  };*/
 
   return (
     <Helmet title="Signup">
@@ -84,7 +76,7 @@ const Signup = () => {
               <Col lg="6" className="m-auto text-center">
                 <h3 className="fw-bold mb-4">Signup</h3>
 
-                <Form className="auth__form" onSubmit={signup}>
+                <Form className="auth__form">
                   <FormGroup className="form__group">
                     <input
                       type="text"
@@ -110,12 +102,12 @@ const Signup = () => {
                     />
                   </FormGroup>
 
-                  <FormGroup className="form__group">
+                  {/*<FormGroup className="form__group">
                     <input
                       type="File"
                       onChange={(e) => setFile(e.target.files[0])}
                     />
-                  </FormGroup>
+            </FormGroup>*/}
 
                   <button type="submit" className="buy__btn auth__btn">
                     Create your Account

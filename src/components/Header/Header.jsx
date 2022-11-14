@@ -1,13 +1,12 @@
 import React, { useRef, useEffect } from "react";
-import useAuth from "../../custom-hooks/useAuth";
 
 import { NavLink, useNavigate } from "react-router-dom";
 import "./header.css";
 
 import { motion } from "framer-motion";
 
-import logo from "../../assets/images/bullet2.png";
-import userIcon from "../../assets/images/user-icon.png";
+import logo from "../../assets/images/h.png";
+import userIcon from "../../assets/images/helm1.jpg";
 
 import { Container, Row } from "reactstrap";
 import { useSelector } from "react-redux";
@@ -33,7 +32,6 @@ const Header = () => {
 
   const menuRef = useRef(null);
   const navigate = useNavigate();
-  const { currentUser } = useAuth();
 
   const stickyHeaderFunc = () => {
     window.addEventListener("scroll", () => {
@@ -102,7 +100,6 @@ const Header = () => {
               <span>
                 <motion.img whileTap={{ scale: 1.2 }} src={userIcon} alt="" />
               </span>
-              <p>{currentUser.displayName}</p>
               <div className="mobile__menu">
                 <span onClick={menuToggle}>
                   <i class="ri-menu-5-line"></i>

@@ -128,7 +128,7 @@ const ProductDetails = () => {
       <section>
         <Container>
           <Row>
-            <Col lg="12">
+            {/*<Col lg="12">
               <div className="tab__wrapper d-flex align-items-center gap-5">
                 <h6
                   className={`${tab === "desc" ? "active__tab" : ""}`}
@@ -144,7 +144,7 @@ const ProductDetails = () => {
                 </h6>
               </div>
 
-              {tab === "desc" ? (
+             {tab === "desc" ? (
                 <div className="tab__content mt-5">
                   <p>{description}</p>
                 </div>
@@ -154,7 +154,7 @@ const ProductDetails = () => {
                     <ul>
                       {reviews?.map((item, index) => (
                         <li key={index} className="mb-4">
-                          <h6> John Doe </h6>
+                          <h6> </h6>
                           <span>{item.rating} (Rating)</span>
                           <p>{item.text}</p>
                         </li>
@@ -223,12 +223,11 @@ const ProductDetails = () => {
                         >
                           Submit
                         </motion.button>
-                      </form>
+                      </form> 
                     </div>
                   </div>
-                </div>
-              )}
-            </Col>
+                </div> ) }
+            </Col>*/}
 
             <Col lg="12" className="mt-5">
               <h2 className="related__title">

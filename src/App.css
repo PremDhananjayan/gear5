@@ -7,8 +7,13 @@
   --card-bg-02: #d6e5fb;
   --card-bg-03: #ceebe9;
   --card-bg-04: #e2f2b2;
-  --primary-color: #0a1d37;
-  --hero-bg: #d6e5fb;
+  --primary-color: #000000;
+  --primary-color1: #d78d5f;
+  --primary-color2: #0a1d37;
+  --hero-bg: #000000;
+  --hero-bgs: #ffffff;
+  --card-bg-100: #d78d5f;
+  --card-bg-200: #788292;
   --heading-fontSize: 2rem;
   --small-text-color: #999;
   --heading-text-color: #0a1d37;
@@ -55,21 +60,21 @@ a {
   color: unset;
 }
 
-img{
+img {
   width: 100%;
 }
 
-section{
+section {
   padding: 60px 0;
 }
 
-.section__title{
+.section__title {
   color: var(--primary-color);
   font-weight: 600;
 }
 
-@media only screen and (max-width: 768px){
-    section{
-        padding: 40px 0;
-    }
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 40px 0;
+  }
 }
