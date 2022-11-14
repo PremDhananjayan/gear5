@@ -46,7 +46,6 @@ const Login = () => {
             ) : (
               <Col lg="6" className="m-auto text-center">
                 <h3 className="fw-bold mb-4">Login</h3>
-                <img src="gear5.png" alt="" />
 
                 <Form className="auth__form">
                   <FormGroup className="form__group">
