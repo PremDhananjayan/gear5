@@ -28,11 +28,11 @@ const Home = () => {
 
   useEffect(() => {
     const filteredTrendingProducts = products.filter(
-      (item) => item.category === "chair"
+      (item) => item.category === "services"
     );
 
     const filteredBestSalesProducts = products.filter(
-      (item) => item.category === "sofa"
+      (item) => item.category === "spares"
     );
 
     const filteredMobileProducts = products.filter(
@@ -44,7 +44,7 @@ const Home = () => {
     );
 
     const filteredPopularProducts = products.filter(
-      (item) => item.category === "watch"
+      (item) => item.category === "customization"
     );
 
     setTrendingProducts(filteredTrendingProducts);
@@ -85,7 +85,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h2 className="section__title">Current Best-selling Spares</h2>
+              <h2 className="section__title">Services We Provide</h2>
             </Col>
             <ProductsList data={trendingProducts} />
           </Row>
@@ -145,9 +145,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
-              <h2 className="section__title">
-                All-time Popular Spares & Accessories!
-              </h2>
+              <h2 className="section__title">Customize at your Will!</h2>
             </Col>
             <ProductsList data={popularProducts} />
           </Row>

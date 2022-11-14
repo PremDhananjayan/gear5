@@ -1,48 +1,49 @@
-import productImg01 from "../images/double-sofa-01.png";
-import productImg02 from "../images/double-sofa-02.png";
-import productImg03 from "../images/double-sofa-03.png";
+import productImg01 from "../images/slipon Exhaust.jpg";
+import productImg02 from "../images/GpExhaust.jpg";
+import productImg03 from "../images/powercom.jpg";
+import productImg004 from "../images/vance.jpg";
 
-import productImg04 from "../images/single-sofa-01.jpg";
-import productImg05 from "../images/single-sofa-02.jpg";
-import productImg06 from "../images/single-sofa-03.jpg";
-import productImg007 from "../images/single-sofa-04.png";
+import productImg04 from "../images/clutch.jpg";
+import productImg05 from "../images/wind.jpg";
+import productImg06 from "../images/gbrake.jpg";
+import productImg007 from "../images/sprock.jpg";
 
-import productImg07 from "../images/arm-chair-01.jpg";
-import productImg08 from "../images/arm-chair-02.jpg";
-import productImg09 from "../images/arm-chair-03.jpg";
-import productImg10 from "../images/arm-chair-01.jpg";
+import productImg07 from "../images/fullse.jpg";
+import productImg08 from "../images/h02.jpg";
+import productImg09 from "../images/washh.png";
+import productImg10 from "../images/G03.jpg";
 
-import productImg13 from "../images/AntiFog.png";
-import productImg14 from "../images/Strenght.jpeg";
-import productImg15 from "../images/Excel.png";
-import productImg16 from "../images/Mahadev.jpeg";
-import productImg17 from "../images/FullGloves.png";
+import productImg13 from "../images/AntiFog.jpg";
+import productImg14 from "../images/Strenght.jpg";
+import productImg15 from "../images/Excel.jpg";
+import productImg16 from "../images/Mahadev.jpg";
+import productImg17 from "../images/FullGloves.jpg";
 import productImg18 from "../images/Pannier.png";
 import productImg19 from "../images/HalfGlove.png";
 
-import productImg20 from "../images/watch-02.jpg";
-import productImg21 from "../images/watch-03.jpg";
-import productImg22 from "../images/watch-04.jpg";
+import productImg20 from "../images/custom1.png";
+import productImg21 from "../images/custom2.png";
+import productImg22 from "../images/custom7.png";
 
 import productImg23 from "../images/holder.jpg";
+import productImg25 from "../images/custom4.png";
 
 //import productImg25 from "../images/Riding.jpg";
 
 const products = [
   {
     id: "01",
-    productName: "Stone and Beam Westview ",
+    productName: "Akrapovic GP Slip-On Exhaust",
     imgUrl: productImg01,
-    category: "sofa",
+    category: "spares",
     price: 193,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "The Akrapovic GP-styled Slip-On is a high-performance exhaust that takes design cues from the exhaust found on the factory Yamaha M1 MotoGP bike. Made from titanium, a race-proven material, this exhaust system results in a boost in performance and noticeable weight reduction.Slip-Ons represent the first step in the exhaust system tuning process, and they offer a great balance between price and performance. Change the nature of your bike by adding more power, improved performance, and the unique Akrapovic sound.",
+    description: "",
     reviews: [
       {
         rating: 4.7,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "",
       },
     ],
     avgRating: 4.5,
@@ -50,12 +51,12 @@ const products = [
 
   {
     id: "02",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Akrapovic Evolution GP Exhaust ",
     imgUrl: productImg02,
-    category: "sofa",
+    category: "spares",
     price: 253,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "The Akrapovic GP-styled Evolution Exhaust is a high-performance exhaust that takes design cues from the exhaust found on the leading WSBK machines. Made entirely  from titanium, a race-proven material, this exhaust system results in a boost in performance and noticeable weight reduction.",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -73,12 +74,12 @@ const products = [
 
   {
     id: "03",
-    productName: "Amazon Brand Modern Sofa",
+    productName: "Dynojet Power Commander V",
     imgUrl: productImg03,
-    category: "sofa",
+    category: "spares",
     price: 173,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "The Dynojet Power Commander V is a vital first step into the world of motorcycle fuel tuning. The ability to adjust your motorcycle’s fuel map is vital if you have added a high-flow air filter, aftermarket exhaust system or smog block-off plates. All of these modifications will, in some way, alter the air/fuel ratio in your engine. The Dynojet PCV, with its microprocessors and PCV Software, allows you to adjust your motorcycle’s fuel map up to +250%/-100% to ensure an optimal setting. Dynojet offers a large database of free, downloadable maps for many combinations of motorcycles and aftermarket parts",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -95,9 +96,9 @@ const products = [
   },
   {
     id: "26",
-    productName: "Rivet Bigelow Modern ",
-    imgUrl: productImg02,
-    category: "sofa",
+    productName: "VO2 Cage Fighter Air Intake  ",
+    imgUrl: productImg004,
+    category: "spares",
     price: 253,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -117,12 +118,12 @@ const products = [
   },
   {
     id: "04",
-    productName: "Fllufy Sheep Sofa",
+    productName: "CRG RC2 Clutch Lever",
     imgUrl: productImg04,
-    category: "sofa",
+    category: "spares",
     price: 163,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "The RC2 is a brand new version of the on-the-fly position adjustable lever, designed for OEM style master cylinders. A worthy successor to the highly successful, race-proven Roll-a-Click lever, the RC2 offers a higher level of refinement and design through details that include a replaceable black delrin lever tip, extensive use of the newest CNC machine surfacing techniques, custom hardware, and precision laser etched graphics. A redesigned miniature clicker lever controls a roller cam assembly, giving riders the ability to manipulate lever position while riding.",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -140,12 +141,12 @@ const products = [
 
   {
     id: "05",
-    productName: "Faux Velvet Sofa",
+    productName: "Racing Windscreens",
     imgUrl: productImg05,
-    category: "sofa",
+    category: "spares",
     price: 163,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Derived from competition, the race bubble design helps diminish the air effect on a rider's helmet.Made of high impact acrylic, giving each screen added strength and flexibility3mm thickness helps absorb vibration at high speeds, and offers resistance from cracking or scratching.All screens are developed using information from wind tunnel testing.Black opaque windscreens featuring the model's logo.",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -163,12 +164,12 @@ const products = [
 
   {
     id: "06",
-    productName: "Fllufy Sheep Sofa",
+    productName: "SuperSport Brake Rotorsa",
     imgUrl: productImg06,
-    category: "sofa",
+    category: "spares",
     price: 163,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "SuperSport Brake Rotors were developed with the goal of offering the very best high performance brake rotor for both European and Japanese sportbikes. Designed for use on either the street or track, these rotors will surely outperform anything else on the market. Under high stress a rotor can overheat and warp, transferring excess heat to the braking system causing it to wear out prematurely or fail entirely. The SuperSport Rotor’s friction surface is made of tempered martensitic steel which is capable of withstanding extreme thermo-mechanical stresses leading to more consistent performance over its lifecycle.",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -185,9 +186,9 @@ const products = [
   },
   {
     id: "07",
-    productName: "Sakarias Armchair",
+    productName: "Full Service",
     imgUrl: productImg07,
-    category: "chair",
+    category: "services",
     price: 99,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -208,12 +209,12 @@ const products = [
 
   {
     id: "27",
-    productName: "Modern Arm Sofa",
+    productName: "Stealth Rear Sprocket",
     imgUrl: productImg007,
-    category: "sofa",
+    category: "spares",
     price: 173,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "While aluminum sprockets are coveted for their lightness, they wear out quickly, especially in rough conditions or on high horsepower machines. Steel sprockets might be durable enough to go the distance, but their comparatively higher weight makes them less than ideal for riders and race teams looking to squeeze every drop of performance from their machinery. The short comings of each material inspired SuperSprox to come up with a hybrid alternative",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -231,9 +232,9 @@ const products = [
 
   {
     id: "08",
-    productName: "Baltsar Chair",
+    productName: "Semi Service",
     imgUrl: productImg08,
-    category: "chair",
+    category: "services",
     price: 89,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -254,9 +255,9 @@ const products = [
 
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Polish & Wash",
     imgUrl: productImg09,
-    category: "chair",
+    category: "services",
     price: 112,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -300,9 +301,9 @@ const products = [
   },
   {
     id: "25",
-    productName: "Sakarias Armchair",
+    productName: "Wheel alignment",
     imgUrl: productImg10,
-    category: "chair",
+    category: "services",
     price: 99,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -460,9 +461,9 @@ const products = [
 
   {
     id: "17",
-    productName: "Timex Easy Reader Watch",
+    productName: "Streetbike Customization",
     imgUrl: productImg20,
-    category: "watch",
+    category: "customization",
     price: 299,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -483,9 +484,9 @@ const products = [
 
   {
     id: "18",
-    productName: "Rolex Watch",
+    productName: "Street Cruiser Customization",
     imgUrl: productImg21,
-    category: "watch",
+    category: "customization",
     price: 299,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -506,9 +507,9 @@ const products = [
 
   {
     id: "19",
-    productName: "Apple Watch",
+    productName: "Superbike Customization",
     imgUrl: productImg22,
-    category: "watch",
+    category: "customization",
     price: 399,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -545,6 +546,28 @@ const products = [
       {
         rating: 4.9,
         text: "",
+      },
+    ],
+    avgRating: 4.8,
+  },
+  {
+    id: "22",
+    productName: "Dirtbike Customization",
+    imgUrl: productImg25,
+    category: "customization",
+    price: 299,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       },
     ],
     avgRating: 4.8,

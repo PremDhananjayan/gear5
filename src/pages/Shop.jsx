@@ -15,7 +15,7 @@ const Shop = () => {
     const filterValue = e.target.value;
     if (filterValue === "sofa") {
       const filteredProducts = products.filter(
-        (item) => item.category === "sofa"
+        (item) => item.category === "spares"
       );
 
       setProductsData(filteredProducts);
@@ -31,7 +31,7 @@ const Shop = () => {
 
     if (filterValue === "chair") {
       const filteredProducts = products.filter(
-        (item) => item.category === "chair"
+        (item) => item.category === "services"
       );
 
       setProductsData(filteredProducts);
@@ -39,19 +39,19 @@ const Shop = () => {
 
     if (filterValue === "watch") {
       const filteredProducts = products.filter(
-        (item) => item.category === "watch"
+        (item) => item.category === "customization"
       );
 
       setProductsData(filteredProducts);
     }
 
-    if (filterValue === "wireless") {
+    /*if (filterValue === "wireless") {
       const filteredProducts = products.filter(
         (item) => item.category === "wireless"
       );
 
       setProductsData(filteredProducts);
-    }
+    }*/
   };
 
   const handleSearch = (e) => {
@@ -74,11 +74,10 @@ const Shop = () => {
               <div className="filter__widget">
                 <select onChange={handleFilter}>
                   <option>Filter By Category</option>
-                  <option value="sofa">Sofa</option>
-                  <option value="mobile">Mobiles</option>
-                  <option value="chair">Chair</option>
-                  <option value="watch">Watch</option>
-                  <option value="wireless">Wireless</option>
+                  <option value="sofa">Spares</option>
+                  <option value="mobile">Accessories</option>
+                  <option value="chair">Services</option>
+                  <option value="watch">Customiztion</option>
                 </select>
               </div>
             </Col>

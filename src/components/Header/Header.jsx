@@ -6,7 +6,7 @@ import "./header.css";
 import { motion } from "framer-motion";
 
 import logo from "../../assets/images/h.png";
-import userIcon from "../../assets/images/helm1.jpg";
+import userIcon from "../../assets/images/helmm.png";
 
 import { Container, Row } from "reactstrap";
 import { useSelector } from "react-redux";
