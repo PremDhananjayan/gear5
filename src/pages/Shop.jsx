@@ -13,7 +13,7 @@ const Shop = () => {
 
   const handleFilter = (e) => {
     const filterValue = e.target.value;
-    if (filterValue === "sofa") {
+    if (filterValue === "spares") {
       const filteredProducts = products.filter(
         (item) => item.category === "spares"
       );
@@ -21,7 +21,7 @@ const Shop = () => {
       setProductsData(filteredProducts);
     }
 
-    if (filterValue === "mobile") {
+    if (filterValue === "accessories") {
       const filteredProducts = products.filter(
         (item) => item.category === "accessories"
       );
@@ -29,7 +29,7 @@ const Shop = () => {
       setProductsData(filteredProducts);
     }
 
-    if (filterValue === "chair") {
+    if (filterValue === "services") {
       const filteredProducts = products.filter(
         (item) => item.category === "services"
       );
@@ -37,7 +37,7 @@ const Shop = () => {
       setProductsData(filteredProducts);
     }
 
-    if (filterValue === "watch") {
+    if (filterValue === "customization") {
       const filteredProducts = products.filter(
         (item) => item.category === "customization"
       );
@@ -63,6 +63,7 @@ const Shop = () => {
 
     setProductsData(searchedProducts);
   };
+
   return (
     <Helmet title="Shop">
       <CommonSection title="Products" />
@@ -74,10 +75,10 @@ const Shop = () => {
               <div className="filter__widget">
                 <select onChange={handleFilter}>
                   <option>Filter By Category</option>
-                  <option value="sofa">Spares</option>
-                  <option value="mobile">Accessories</option>
-                  <option value="chair">Services</option>
-                  <option value="watch">Customiztion</option>
+                  <option value="spares">Spares</option>
+                  <option value="accessories">Accessories</option>
+                  <option value="services">Services</option>
+                  <option value="customization">Customiztion</option>
                 </select>
               </div>
             </Col>

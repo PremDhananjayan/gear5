@@ -36,7 +36,7 @@ const products = [
     productName: "Akrapovic GP Slip-On Exhaust",
     imgUrl: productImg01,
     category: "spares",
-    price: 193,
+    price: 2000,
     shortDesc:
       "The Akrapovic GP-styled Slip-On is a high-performance exhaust that takes design cues from the exhaust found on the factory Yamaha M1 MotoGP bike. Made from titanium, a race-proven material, this exhaust system results in a boost in performance and noticeable weight reduction.Slip-Ons represent the first step in the exhaust system tuning process, and they offer a great balance between price and performance. Change the nature of your bike by adding more power, improved performance, and the unique Akrapovic sound.",
     description: "",
@@ -54,7 +54,7 @@ const products = [
     productName: "Akrapovic Evolution GP Exhaust ",
     imgUrl: productImg02,
     category: "spares",
-    price: 253,
+    price: 2530,
     shortDesc:
       "The Akrapovic GP-styled Evolution Exhaust is a high-performance exhaust that takes design cues from the exhaust found on the leading WSBK machines. Made entirely  from titanium, a race-proven material, this exhaust system results in a boost in performance and noticeable weight reduction.",
     description:
@@ -77,7 +77,7 @@ const products = [
     productName: "Dynojet Power Commander V",
     imgUrl: productImg03,
     category: "spares",
-    price: 173,
+    price: 1730,
     shortDesc:
       "The Dynojet Power Commander V is a vital first step into the world of motorcycle fuel tuning. The ability to adjust your motorcycle’s fuel map is vital if you have added a high-flow air filter, aftermarket exhaust system or smog block-off plates. All of these modifications will, in some way, alter the air/fuel ratio in your engine. The Dynojet PCV, with its microprocessors and PCV Software, allows you to adjust your motorcycle’s fuel map up to +250%/-100% to ensure an optimal setting. Dynojet offers a large database of free, downloadable maps for many combinations of motorcycles and aftermarket parts",
     description:
@@ -99,9 +99,8 @@ const products = [
     productName: "VO2 Cage Fighter Air Intake  ",
     imgUrl: productImg004,
     category: "spares",
-    price: 253,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    price: 2530,
+    shortDesc: "",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -121,7 +120,7 @@ const products = [
     productName: "CRG RC2 Clutch Lever",
     imgUrl: productImg04,
     category: "spares",
-    price: 163,
+    price: 1630,
     shortDesc:
       "The RC2 is a brand new version of the on-the-fly position adjustable lever, designed for OEM style master cylinders. A worthy successor to the highly successful, race-proven Roll-a-Click lever, the RC2 offers a higher level of refinement and design through details that include a replaceable black delrin lever tip, extensive use of the newest CNC machine surfacing techniques, custom hardware, and precision laser etched graphics. A redesigned miniature clicker lever controls a roller cam assembly, giving riders the ability to manipulate lever position while riding.",
     description:
@@ -144,7 +143,7 @@ const products = [
     productName: "Racing Windscreens",
     imgUrl: productImg05,
     category: "spares",
-    price: 163,
+    price: 1630,
     shortDesc:
       "Derived from competition, the race bubble design helps diminish the air effect on a rider's helmet.Made of high impact acrylic, giving each screen added strength and flexibility3mm thickness helps absorb vibration at high speeds, and offers resistance from cracking or scratching.All screens are developed using information from wind tunnel testing.Black opaque windscreens featuring the model's logo.",
     description:
@@ -167,7 +166,7 @@ const products = [
     productName: "SuperSport Brake Rotorsa",
     imgUrl: productImg06,
     category: "spares",
-    price: 163,
+    price: 1630,
     shortDesc:
       "SuperSport Brake Rotors were developed with the goal of offering the very best high performance brake rotor for both European and Japanese sportbikes. Designed for use on either the street or track, these rotors will surely outperform anything else on the market. Under high stress a rotor can overheat and warp, transferring excess heat to the braking system causing it to wear out prematurely or fail entirely. The SuperSport Rotor’s friction surface is made of tempered martensitic steel which is capable of withstanding extreme thermo-mechanical stresses leading to more consistent performance over its lifecycle.",
     description:
@@ -189,7 +188,7 @@ const products = [
     productName: "Full Service",
     imgUrl: productImg07,
     category: "services",
-    price: 99,
+    price: 990,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -212,7 +211,7 @@ const products = [
     productName: "Stealth Rear Sprocket",
     imgUrl: productImg007,
     category: "spares",
-    price: 173,
+    price: 1730,
     shortDesc:
       "While aluminum sprockets are coveted for their lightness, they wear out quickly, especially in rough conditions or on high horsepower machines. Steel sprockets might be durable enough to go the distance, but their comparatively higher weight makes them less than ideal for riders and race teams looking to squeeze every drop of performance from their machinery. The short comings of each material inspired SuperSprox to come up with a hybrid alternative",
     description:
@@ -235,7 +234,7 @@ const products = [
     productName: "Semi Service",
     imgUrl: productImg08,
     category: "services",
-    price: 89,
+    price: 890,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -258,7 +257,7 @@ const products = [
     productName: "Polish & Wash",
     imgUrl: productImg09,
     category: "services",
-    price: 112,
+    price: 1120,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -281,7 +280,7 @@ const products = [
     productName: "Anti Fog Shield Helmet",
     imgUrl: productImg13,
     category: "accessories",
-    price: "799",
+    price: 7980,
     shortDesc:
       "1.World's first helmet with NACA Duct air flow technology, this air flow system is also used in aircraft's and super cars. ",
     //"2.The double NACA  inlets above the shield allow the entry of the large volume of air inside the helmet to refresh and dehumidify the interior."
@@ -305,8 +304,7 @@ const products = [
     imgUrl: productImg10,
     category: "services",
     price: 99,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    shortDesc: " ",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -419,8 +417,7 @@ const products = [
     imgUrl: productImg18,
     category: "accessories",
     price: 699,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    shortDesc: "",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -466,7 +463,7 @@ const products = [
     category: "customization",
     price: 299,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -488,8 +485,7 @@ const products = [
     imgUrl: productImg21,
     category: "customization",
     price: 299,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    shortDesc: "",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -511,8 +507,7 @@ const products = [
     imgUrl: productImg22,
     category: "customization",
     price: 399,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    shortDesc: "",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [

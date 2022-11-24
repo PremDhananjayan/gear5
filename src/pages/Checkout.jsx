@@ -29,10 +29,6 @@ const Checkout = () => {
                 <FormGroup className="form__group">
                   <input type="number" placeholder="Enter your Phone Number." />
                 </FormGroup>
-
-                <FormGroup className="form__group">
-                  <input type="text" placeholder="Enter your Street Address." />
-                </FormGroup>
               </Form>
             </Col>
 
