@@ -1,5 +1,6 @@
 .hero__section {
   background: var(--hero-bg);
+  background-color: black;
 }
 
 .hero__content h2 {

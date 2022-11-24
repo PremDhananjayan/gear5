@@ -4,6 +4,7 @@ import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 import "../styles/checkout.css";
 import { useSelector } from "react-redux";
+import Footer from "../components/Footer/Footer";
 
 const Checkout = () => {
   const totalQty = useSelector((state) => state.cart.totalQuantity);
@@ -57,6 +58,7 @@ const Checkout = () => {
           </Row>
         </Container>
       </section>
+      <Footer />
     </Helmet>
   );
 };

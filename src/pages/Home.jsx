@@ -16,6 +16,7 @@ import ProductsList from "../components/UI/ProductsList";
 import Clock from "../components/UI/Clock";
 
 import counterImg from "../assets/images/counter4.png";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   const [trendingProducts, setTrendingProducts] = useState([]);
@@ -72,9 +73,13 @@ const Home = () => {
             </Col>
 
             <Col lg="6" md="6">
-              <div className="hero__img">
+              <motion.div
+                animate={{ x: 100 }}
+                transition={{ ease: "easeIn", duration: 5 }}
+                className="hero__img"
+              >
                 <img src={bike5} alt=" " />
-              </div>
+              </motion.div>
             </Col>
           </Row>
         </Container>
@@ -123,7 +128,7 @@ const Home = () => {
               </motion.button>
             </Col>
             <Col lg="6" md="12" className="text-end counter__img">
-              <img src={counterImg} alt=" " />
+              <motion.img onHover={{ scale: 1.1 }} src={counterImg} alt=" " />
             </Col>
           </Row>
         </Container>
@@ -151,6 +156,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+      <Footer />
     </Helmet>
   );
 };

@@ -100,7 +100,8 @@ const products = [
     imgUrl: productImg004,
     category: "spares",
     price: 2530,
-    shortDesc: "",
+    shortDesc:
+      "The ultimate combination of performance and design for your V-Twin engine. Inverted pleated top with pleated sides to maximize airflow. The synthetic black air filter element is encapsulated in a stainless steel jacket for the ultimate in style and durability.",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -188,9 +189,9 @@ const products = [
     productName: "Full Service",
     imgUrl: productImg07,
     category: "services",
-    price: 990,
+    price: 5000,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Engine checks : * Oil change – the grade used will depend on the manufacturer’s recommendation * New oil filter New air filter * New spark plugs * Test/replace/top-up coolant as required",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -234,9 +235,10 @@ const products = [
     productName: "Semi Service",
     imgUrl: productImg08,
     category: "services",
-    price: 890,
+    price: 2500,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Chassis & brake checks: * Brake callipers removed and cleaned * Brake pistons degreased * Hydraulic Brake Fluid System inspected, topped up or replaced as required * Control cables, levers and pivots (throttle, clutch, brakes) cleaned and lubricated * Adjustment of throttle and clutch * Battery electrolyte level checked and topped up as required * Steering play and race bearing kit – examined for any looseness and adjusted as necessary * Chain – adjusted and lubricated as necessary",
+
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -258,8 +260,7 @@ const products = [
     imgUrl: productImg09,
     category: "services",
     price: 1120,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    shortDesc: "We Polish We Wash",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -303,8 +304,8 @@ const products = [
     productName: "Wheel alignment",
     imgUrl: productImg10,
     category: "services",
-    price: 99,
-    shortDesc: " ",
+    price: 1019,
+    shortDesc: "Wheel go burrrr ",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -324,7 +325,7 @@ const products = [
     productName: "Steelbird  Strength",
     imgUrl: productImg14,
     category: "accessories",
-    price: 799,
+    price: 1799,
     shortDesc:
       "Quick release chinstrap mechanism for ease of operation and safety High quality UV resistant Polyurethane paints used for aesthetic enhancement Dynamic ventilation system for increased air flow providing more comfort to the rider while driving Outer shell injected from special high impact grade of engineering thermoplastic Regulated density EPS concussion padding lined with specially treated anti allergic velveteen",
     description:
@@ -347,7 +348,7 @@ const products = [
     productName: "Steelbird Monster",
     imgUrl: productImg15,
     category: "accessories",
-    price: 599,
+    price: 2599,
     shortDesc:
       "High Impact Resistant Thermoplastic shell 2. Multi layer EPS (Thermocol) High Density and low density For more Safety with Air Channels. 3. Micro-Metric Buckle meeting European Standards. 4. The ventilation of the helmet's upper part uses the AIR BOOSTER system. 5. Italian Design Hygenic Interior With Multipore 6. Breathable Pedding Neck Protector For Extra Comfort 7. Padding Polycarbonate Anti Scratch Coated Visor ",
     description:
@@ -370,7 +371,7 @@ const products = [
     productName: "SBA-3 Excel ",
     imgUrl: productImg16,
     category: "accessories",
-    price: 799,
+    price: 1999,
     shortDesc:
       "SBA-3 Excel Mat Black With Red ( Fitted With Clear Visor  Extra Silver Chrome Visor Free)",
     description:
@@ -393,7 +394,7 @@ const products = [
     productName: "Steelbird Full Finger Bike Riding Gloves ",
     imgUrl: productImg17,
     category: "accessories",
-    price: 899,
+    price: 2099,
     shortDesc:
       "Made for every day ride using solid and durable material for riders safety.  Anti skid polyester fabric at palm ensures ultra grip through out daily ride. Suitable for most moto sports and adventure.  Ride Safe!! ",
     description:
@@ -416,7 +417,7 @@ const products = [
     productName: "Steelbird Pannier Box ",
     imgUrl: productImg18,
     category: "accessories",
-    price: 699,
+    price: 1699,
     shortDesc: "",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
@@ -438,7 +439,7 @@ const products = [
     productName: "Half Finger Gloves",
     imgUrl: productImg19,
     category: "accessories",
-    price: 299,
+    price: 799,
     shortDesc:
       "Multipurpose Anti-slip sports activity Gloves. High quality silicon printing on upper palm and fingers help you grip better. Adjustable Long wrist wrap support for better protection of your wrist. Pull tab at fingers for easy take off. Steelbird service always!",
     description:
@@ -462,8 +463,7 @@ const products = [
     imgUrl: productImg20,
     category: "customization",
     price: 299,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore",
+    shortDesc: "",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -484,7 +484,7 @@ const products = [
     productName: "Street Cruiser Customization",
     imgUrl: productImg21,
     category: "customization",
-    price: 299,
+    price: 2299,
     shortDesc: "",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
@@ -506,7 +506,7 @@ const products = [
     productName: "Superbike Customization",
     imgUrl: productImg22,
     category: "customization",
-    price: 399,
+    price: 3399,
     shortDesc: "",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
@@ -528,7 +528,7 @@ const products = [
     productName: "Bike Mobile Holder & Charger",
     imgUrl: productImg23,
     category: "accessories",
-    price: 199,
+    price: 899,
     shortDesc:
       "Detachable Design: To prevent theft of your charger & holder or prevent others using your bike's battery to charge their phone, the Autofy X-Grip comes with double ball design so that you can detach the cradle.",
 
@@ -550,7 +550,7 @@ const products = [
     productName: "Dirtbike Customization",
     imgUrl: productImg25,
     category: "customization",
-    price: 299,
+    price: 2999,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:

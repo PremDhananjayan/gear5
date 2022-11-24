@@ -11,6 +11,7 @@ import ProductsList from "../components/UI/ProductsList";
 import { useDispatch } from "react-redux";
 import { cartActions } from "../redux/slices/cartSlice";
 import { toast } from "react-toastify";
+import Footer from "../components/Footer/Footer";
 
 const ProductDetails = () => {
   const [tab, setTab] = useState("description");
@@ -239,6 +240,7 @@ const ProductDetails = () => {
           </Row>
         </Container>
       </section>
+      <Footer />
     </Helmet>
   );
 };

@@ -57,6 +57,9 @@ const Header = () => {
   const navigateToCart = () => {
     navigate("/cart");
   };
+  const navigateToLogin = () => {
+    navigate("/login");
+  };
 
   return (
     <header className="header" ref={headerRef}>
@@ -93,7 +96,7 @@ const Header = () => {
                 <span className="badge">{totalQuantity}</span>
               </span>
 
-              <span>
+              <span onClick={navigateToLogin}>
                 <motion.img whileTap={{ scale: 1.2 }} src={userIcon} alt="" />
               </span>
               <div className="mobile__menu">

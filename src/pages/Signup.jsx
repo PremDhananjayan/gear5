@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 import { toast } from "react-toastify";
 import "../styles/login.css";
+import Footer from "../components/Footer/Footer";
 
 const Signup = () => {
   const [username, setUsername] = useState("");
@@ -122,6 +123,7 @@ const Signup = () => {
           </Row>
         </Container>
       </section>
+      <Footer />
     </Helmet>
   );
 };

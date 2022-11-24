@@ -7,6 +7,7 @@ import { Container, Row, Col } from "reactstrap";
 import "../styles/shop.css";
 import products from "../assets/data/products";
 import ProductsList from "../components/UI/ProductsList";
+import Footer from "../components/Footer/Footer";
 
 const Shop = () => {
   const [productsData, setProductsData] = useState(products);
@@ -118,6 +119,7 @@ const Shop = () => {
           </Row>
         </Container>
       </section>
+      <Footer />
     </Helmet>
   );
 };

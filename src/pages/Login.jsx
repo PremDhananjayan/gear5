@@ -3,6 +3,7 @@ import Helmet from "../components/Helmet/Helmet";
 import { Container, Row, Col, Form, FormGroup } from "reactstrap";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
+import Footer from "../components/Footer/Footer";
 
 import "../styles/login.css";
 const Login = () => {
@@ -78,6 +79,7 @@ const Login = () => {
           </Row>
         </Container>
       </section>
+      <Footer />
     </Helmet>
   );
 };
